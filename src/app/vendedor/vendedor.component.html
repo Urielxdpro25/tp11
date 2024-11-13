@@ -1,0 +1,33 @@
+<Script>
+    const sujeto1 = {
+        idVendedor: 1,
+        nombre: "uriel",
+        apellido: "uncos",
+        nombreUsuario: "urielxdpro",
+        password: "soyUriel",
+        edad: 17,
+        direccion: "j,j,p",
+        telefono:299764576,
+        email:"yjhfdh@gmail.com",
+        facebook:"udjjykds",
+
+        imprimirinfo: function () {
+            return document.write(`nombre: ${this.nombre} apellido: ${this.apellido} nombreUsuario: ${this.nombreUsuario} password: ${this.password} tipousuario: ${this.tipousuario} estado: ${this.estado}`)
+        },
+        saludar() {
+            return document.write("el sujeto dice buenas tardes")
+        },
+
+    }
+    var edaden20=(edad + 20);
+    document.write("la eda del sujeto en 20 años es de " + edaden20);
+var sueldo=10000;
+var aumento=((sueldo *10)/100);
+document.write("el sueldo aumentado es de " + aumento);
+
+
+
+
+    sujeto1.imprimirinfo()
+    sujeto1.saludar()
+</Script>

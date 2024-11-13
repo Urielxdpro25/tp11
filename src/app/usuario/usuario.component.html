@@ -1,0 +1,21 @@
+<Script>
+    const sujeto1 = {
+        codigo: 1,
+        nombre: "uriel",
+        apellido: "uncos",
+        nombreUsuario: "urielxdpro",
+        password: "soyUriel",
+        tipousuario: "programador",
+        estado: "activo",
+
+        imprimirinfo: function () {
+            return document.write(`nombre: ${this.nombre} apellido: ${this.apellido} nombreUsuario: ${this.nombreUsuario} password: ${this.password} tipousuario: ${this.tipousuario} estado: ${this.estado}`)
+        },
+        saludar() {
+            return document.write("el sujeto dice buenas tardes")
+        },
+
+    }
+    sujeto1.imprimirinfo()
+    sujeto1.saludar()
+</Script>
